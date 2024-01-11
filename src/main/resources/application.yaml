@@ -1,8 +1,43 @@
-spring:
-  security:
-    user:
-      name: admin
-      password: admin
+#spring:
+#  security:
+#    user:
+#      name: admin
+#      password: admin
 
 server:
     port: 9999
+
+#spring:
+#    datasource:
+#        rdmsName: mysql
+#        dbName: cupid_connect
+#        serverTimezone: UTC
+#        serverName: localhost
+#        serverPort: 3306
+#        useSSL: false
+#        url: 'jdbc:${spring.datasource.rdmsName}://${spring.datasource.serverName}:${spring.datasource.serverPort}/${spring.datasource.dbname}?useSSl=${spring.datasource.useSSL}&serverTimezone=${spring.datasource.serverTimezone}'
+#        driver-class-name: com.mysql.jdbc.Driver
+#        hikari:
+#            username:
+#            password:
+#    jpa:
+#        show-sql: true
+#        hibernate:
+#            ddl-auto: none
+#        properties:
+#            hibernate:
+#                dialect: org.hibernate.dialect.MySQL8Dialect
+#                format_sql: true
+#    servlet:
+#      multipart:
+#          max-file-size: 10MB
+#          max-request-size: 10MB
+
+api:
+    prefix:
+        api/v1
+
+
+
+
+
